@@ -1,0 +1,15 @@
+{%extends "layout.html"%}
+{%block content%}
+<div class="video">
+
+	<h1>My First video</h1>
+	<p>My first video.</p>
+	
+	<video width="320" height="240" controls>
+    <source src="{{ url_for('static', filename="video/Bekhayali.mp4") }}" type="video/mp4">
+
+</video>
+
+
+</div>
+{%endblock%}
